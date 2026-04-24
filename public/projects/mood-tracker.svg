@@ -1,0 +1,20 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D1933" />
+      <stop offset="1" stop-color="#4F4E8D" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="28" fill="url(#bg)" />
+  <rect x="160" y="108" width="960" height="504" rx="30" fill="#141124" fill-opacity="0.55" stroke="#B9BFFF" stroke-opacity="0.3" />
+  <circle cx="428" cy="360" r="148" fill="#938DFF" fill-opacity="0.24" />
+  <circle cx="428" cy="360" r="102" fill="#B6C4FF" fill-opacity="0.42" />
+  <circle cx="428" cy="360" r="58" fill="#F9D5B8" fill-opacity="0.9" />
+  <rect x="620" y="228" width="392" height="28" rx="12" fill="#A0A7FF" fill-opacity="0.35" />
+  <rect x="620" y="276" width="330" height="20" rx="10" fill="#A0A7FF" fill-opacity="0.3" />
+  <rect x="620" y="312" width="280" height="20" rx="10" fill="#A0A7FF" fill-opacity="0.3" />
+  <rect x="620" y="368" width="392" height="168" rx="18" fill="#2B2E5A" />
+  <path d="M654 465C694 430 734 514 774 460C814 406 854 494 894 456C934 418 974 498 1014 444" stroke="#A9B6FF" stroke-width="9" stroke-linecap="round" />
+  <text x="160" y="86" fill="#E4E8FF" font-size="44" font-family="Geist, Arial, sans-serif" font-weight="700" letter-spacing="-1.5">Mood Tracker</text>
+  <text x="162" y="130" fill="#C5CCFF" font-size="20" font-family="Geist, Arial, sans-serif" letter-spacing="0.4">Daily emotion logging and pattern visualization</text>
+</svg>

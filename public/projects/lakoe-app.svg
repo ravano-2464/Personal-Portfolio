@@ -1,0 +1,27 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151929" />
+      <stop offset="1" stop-color="#2E8A84" />
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#97F6EA" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#B4CFFF" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="28" fill="url(#bg)" />
+  <rect x="122" y="104" width="1036" height="512" rx="26" fill="#0F1727" fill-opacity="0.55" stroke="#A9F4E4" stroke-opacity="0.32" />
+  <rect x="178" y="168" width="360" height="390" rx="24" fill="#1E2F40" />
+  <rect x="578" y="168" width="520" height="86" rx="20" fill="#204C55" />
+  <rect x="578" y="286" width="248" height="272" rx="20" fill="#203B52" />
+  <rect x="850" y="286" width="248" height="272" rx="20" fill="#2C4E68" />
+  <rect x="210" y="210" width="296" height="64" rx="14" fill="url(#card)" />
+  <rect x="210" y="298" width="296" height="64" rx="14" fill="url(#card)" />
+  <rect x="210" y="386" width="296" height="64" rx="14" fill="url(#card)" />
+  <rect x="210" y="474" width="296" height="64" rx="14" fill="url(#card)" />
+  <circle cx="910" cy="413" r="82" fill="#7EFBE4" fill-opacity="0.2" />
+  <path d="M910 341V485" stroke="#A7FFF0" stroke-width="12" stroke-linecap="round" />
+  <path d="M838 413H982" stroke="#A7FFF0" stroke-width="12" stroke-linecap="round" />
+  <text x="178" y="84" fill="#DAFFF8" font-size="44" font-family="Geist, Arial, sans-serif" font-weight="700" letter-spacing="-1.5">Lakoe App</text>
+  <text x="180" y="128" fill="#B4E7E2" font-size="20" font-family="Geist, Arial, sans-serif" letter-spacing="0.4">E-commerce experience with clean catalog workflows</text>
+</svg>

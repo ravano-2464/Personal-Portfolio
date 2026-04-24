@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1A2F" />
+      <stop offset="1" stop-color="#1B6AA8" />
+    </linearGradient>
+    <linearGradient id="thread" x1="180" y1="190" x2="840" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5FE0FF" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#7EA6FF" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="28" fill="url(#bg)" />
+  <g opacity="0.12" stroke="#BEEAFF" stroke-width="1.5">
+    <path d="M122 120H1150" />
+    <path d="M122 184H1150" />
+    <path d="M122 248H1150" />
+    <path d="M122 312H1150" />
+    <path d="M122 376H1150" />
+    <path d="M122 440H1150" />
+    <path d="M122 504H1150" />
+  </g>
+  <rect x="118" y="110" width="1044" height="500" rx="28" fill="#041124" fill-opacity="0.42" stroke="#87C9FF" stroke-opacity="0.25" />
+  <rect x="180" y="184" width="290" height="106" rx="18" fill="#17375E" />
+  <rect x="180" y="320" width="360" height="106" rx="18" fill="#1C4A78" />
+  <rect x="180" y="456" width="258" height="106" rx="18" fill="#205789" />
+  <rect x="720" y="224" width="320" height="130" rx="18" fill="#204D7E" />
+  <rect x="720" y="386" width="250" height="176" rx="18" fill="#183A63" />
+  <path d="M470 237C550 237 620 262 700 289C736 301 760 312 790 327" stroke="url(#thread)" stroke-width="8" stroke-linecap="round" />
+  <path d="M540 373C600 373 655 362 720 347" stroke="url(#thread)" stroke-width="8" stroke-linecap="round" />
+  <path d="M438 506C565 506 626 477 728 443" stroke="url(#thread)" stroke-width="8" stroke-linecap="round" />
+  <text x="180" y="82" fill="#C8EAFF" font-size="44" font-family="Geist, Arial, sans-serif" font-weight="700" letter-spacing="-1.5">Circle App</text>
+  <text x="182" y="128" fill="#9CC9E8" font-size="20" font-family="Geist, Arial, sans-serif" letter-spacing="0.4">Thread-driven social media experience</text>
+</svg>
