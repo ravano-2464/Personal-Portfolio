@@ -199,32 +199,200 @@ export const portfolioData: PortfolioData = {
       ],
     },
     {
-      title: "Sales Management System",
-      category: "Business Operations Platform",
+      title: "Keyboard Auto Clicker",
+      category: "Automation Tool",
       overview:
-        "Comprehensive web sales system for managing customers, products, and transactions with scalable modular components.",
-      stack: [
-        "React.js",
-        "Node.js",
-        "TypeScript",
-        "TanStack Query",
-        "Prisma",
-        "MySQL",
-      ],
+        "Automation-oriented utility project focused on programmable keyboard and click behavior scenarios.",
+      stack: ["Automation", "Desktop Utility", "Open Source"],
       highlights: [
-        "Automated core operational workflows for business teams.",
-        "Implemented maintainable component architecture and real-time data sync patterns.",
-        "Optimized user experience for speed, clarity, and reliability.",
+        "Designed to streamline repetitive interaction tasks.",
+        "Structured as an open-source repository for iterative improvements.",
       ],
-      image: "/projects/sales-system.svg",
+      image: "/projects/keyboard-auto-clicker.svg",
       links: [
         {
-          label: "Frontend Repository",
-          url: "https://github.com/ravano-2464/FrontEnd-Project-Management",
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Keyboard-Auto-Clicker",
         },
+      ],
+    },
+    {
+      title: "Sonara Web Apps",
+      category: "Web Application",
+      overview:
+        "General-purpose web app project showcasing modular feature development and interface structure.",
+      stack: ["Web App", "Frontend", "Open Source"],
+      highlights: [
+        "Built as a scalable web-based project foundation.",
+        "Published with a repository-first workflow on GitHub.",
+      ],
+      image: "/projects/sonara-web-apps.svg",
+      links: [
         {
-          label: "Backend Repository",
-          url: "https://github.com/ravano-2464/BackEnd-Project-Management",
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Sonara-Web-Apps",
+        },
+      ],
+    },
+    {
+      title: "Wifi Security Analyzer",
+      category: "Security Utility",
+      overview:
+        "Security-focused analyzer project intended to inspect and evaluate Wi-Fi related signals and patterns.",
+      stack: ["Security", "Networking", "Analysis"],
+      highlights: [
+        "Oriented toward practical wireless security exploration.",
+        "Structured for experimentation and iterative enhancement.",
+      ],
+      image: "/projects/wifi-security-analyzer.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Wifi-Security-Analyzer",
+        },
+      ],
+    },
+    {
+      title: "Fake Hacker Interface Web App",
+      category: "Simulation Interface",
+      overview:
+        "Interactive simulation-style interface project designed for visual effect and playful terminal-like experiences.",
+      stack: ["Web UI", "Simulation", "Creative Coding"],
+      highlights: [
+        "Built to emulate cinematic hacker-style interactions.",
+        "Focused on interface feel, animation, and visual immersion.",
+      ],
+      image: "/projects/fake-hacker-interface-web-app.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Fake-Hacker-Interface-Wep-App",
+        },
+      ],
+    },
+    {
+      title: "Gesture Calculator",
+      category: "Computer Vision Utility",
+      overview:
+        "Calculator concept project that explores gesture-based interaction as an alternative input method.",
+      stack: ["Gesture Input", "Computer Vision", "Utility"],
+      highlights: [
+        "Explores hands-free interaction patterns for calculations.",
+        "Combines experimental input flow with practical utility behavior.",
+      ],
+      image: "/projects/gesture-calculator.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Gesture-Calculator",
+        },
+      ],
+    },
+    {
+      title: "Startup Empire",
+      category: "Business / Simulation App",
+      overview:
+        "Product concept project centered around startup-themed simulation and management-style mechanics.",
+      stack: ["Simulation", "Business Logic", "Open Source"],
+      highlights: [
+        "Designed around startup growth and strategic progression concepts.",
+        "Structured to support iterative feature expansion.",
+      ],
+      image: "/projects/startup-empire.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Startup-Empire",
+        },
+      ],
+    },
+    {
+      title: "Augement Reality Debugger",
+      category: "AR / Dev Tool",
+      overview:
+        "Debugger-style project focused on augmented reality development support and diagnostic workflows.",
+      stack: ["Augmented Reality", "Debugging", "Developer Tooling"],
+      highlights: [
+        "Targets troubleshooting and observability in AR contexts.",
+        "Created as a practical experimentation space for AR workflows.",
+      ],
+      image: "/projects/augement-reality-debugger.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Augement-Reality-Debugger",
+        },
+      ],
+    },
+    {
+      title: "AI Code Refactor",
+      category: "AI Developer Tool",
+      overview:
+        "AI-assisted code improvement concept focused on refactoring quality, maintainability, and structure.",
+      stack: ["AI", "Code Quality", "Developer Experience"],
+      highlights: [
+        "Explores automation for cleaner code transformation.",
+        "Oriented toward practical developer productivity improvements.",
+      ],
+      image: "/projects/ai-code-refactor.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/AI-Code-Refactor",
+        },
+      ],
+    },
+    {
+      title: "Codebase Visualizer 3D",
+      category: "Developer Visualization",
+      overview:
+        "3D visualization project for understanding codebase structure, relationships, and architecture patterns.",
+      stack: ["3D Visualization", "Developer Tooling", "Architecture"],
+      highlights: [
+        "Emphasizes structural visibility across complex repositories.",
+        "Built to help exploration of code relationships in visual form.",
+      ],
+      image: "/projects/codebase-visualizer-3d.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Codebase-Visualizer-3D",
+        },
+      ],
+    },
+    {
+      title: "Machine Learning Python",
+      category: "Machine Learning",
+      overview:
+        "Machine learning project collection using Python for model experimentation and data-driven workflows.",
+      stack: ["Python", "Machine Learning", "Data Processing"],
+      highlights: [
+        "Focused on practical ML experimentation and iteration.",
+        "Repository structure supports continued model development.",
+      ],
+      image: "/projects/machine-learning-python.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Machine-Learning-Python",
+        },
+      ],
+    },
+    {
+      title: "Image Converter",
+      category: "Media Utility",
+      overview:
+        "Image conversion utility project built to handle format transformation in a streamlined flow.",
+      stack: ["Image Processing", "Utility Tool", "Open Source"],
+      highlights: [
+        "Designed for straightforward format conversion tasks.",
+        "Focused on simple, practical, and reusable tooling behavior.",
+      ],
+      image: "/projects/image-converter.svg",
+      links: [
+        {
+          label: "Source Code",
+          url: "https://github.com/ravano-2464/Image-Converter",
         },
       ],
     },

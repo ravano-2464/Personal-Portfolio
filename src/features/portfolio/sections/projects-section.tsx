@@ -29,7 +29,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
 
   return (
     <section id="projects" className="scroll-mt-24 py-20 sm:py-24 lg:py-28">
-      <div className="mx-auto max-w-[96rem] px-4 sm:px-6 lg:px-10">
+      <div className="mx-auto max-w-[112rem] px-4 sm:px-6 lg:px-10">
         <SectionHeading
           eyebrow="Projects"
           title="Selected Work"
@@ -45,16 +45,16 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
               onClick={() => setActiveProject(project)}
               whileHover={{ y: -5 }}
               whileTap={{ scale: 0.99 }}
-              className="text-left"
+              className="w-full text-left"
             >
               <Card className="h-full rounded-2xl border border-border/70 bg-card/78 py-0 shadow-[0_20px_45px_-34px_rgba(13,20,40,0.8)]">
-                <div className="relative overflow-hidden rounded-t-2xl border-b border-border/70">
+                <div className="relative aspect-video overflow-hidden rounded-t-2xl border-b border-border/70">
                   <Image
                     src={project.image}
                     alt={`${project.title} preview`}
-                    width={1280}
-                    height={720}
-                    className="h-52 w-full object-cover sm:h-56"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 48vw"
+                    className="w-full !rounded-none bg-background/45 object-contain"
                   />
                 </div>
                 <CardHeader>
@@ -73,7 +73,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
                     {project.title}
                   </CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="pb-4 sm:pb-5">
                   <p className="text-sm text-muted-foreground">
                     {project.overview}
                   </p>
@@ -102,17 +102,17 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
           }
         }}
       >
-        <DialogContent className="max-h-[90vh] max-w-3xl overflow-y-auto rounded-2xl border border-border/75 bg-background/95 p-0 backdrop-blur-xl sm:max-w-4xl">
+        <DialogContent className="max-h-[90vh] max-w-3xl overflow-y-auto rounded-2xl border border-border/75 bg-background/95 p-0 backdrop-blur-xl sm:max-w-5xl">
           {activeProject ? (
             <>
-              <div className="relative overflow-hidden rounded-t-2xl border-b border-border/70">
+              <div className="relative aspect-video overflow-hidden rounded-t-2xl border-b border-border/70">
                 <Image
                   src={activeProject.image}
                   alt={`${activeProject.title} cover`}
-                  width={1280}
-                  height={720}
-                  className="h-60 w-full object-cover sm:h-72"
-                  priority
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1280px) 90vw, 1024px"
+                  className="w-full !rounded-none bg-background/45 object-contain"
+                  preload
                 />
               </div>
 

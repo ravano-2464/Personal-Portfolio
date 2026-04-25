@@ -73,24 +73,90 @@ Catatan:
 ## 🗂️ Project Structure
 
 ```txt
-src/
-  app/
-    api/contact/route.ts
-    globals.css
-    layout.tsx
-    page.tsx
-  components/
-    layout/
-    providers/
-    ui/
-  features/
-    portfolio/
-      data/portfolio-data.ts
-      sections/
-      portfolio-page.tsx
-  lib/
-    resend.ts
-    validators/contact.ts
+├── 📁 public
+│   ├── 📁 projects
+│   │   ├── 🖼️ ai-code-refactor.svg
+│   │   ├── 🖼️ augement-reality-debugger.svg
+│   │   ├── 🖼️ circle-app.svg
+│   │   ├── 🖼️ codebase-visualizer-3d.svg
+│   │   ├── 🖼️ fake-hacker-interface-web-app.svg
+│   │   ├── 🖼️ gesture-calculator.svg
+│   │   ├── 🖼️ image-converter.svg
+│   │   ├── 🖼️ keyboard-auto-clicker.svg
+│   │   ├── 🖼️ lakoe-app.svg
+│   │   ├── 🖼️ machine-learning-python.svg
+│   │   ├── 🖼️ mood-tracker.svg
+│   │   ├── 🖼️ sonara-web-apps.svg
+│   │   ├── 🖼️ startup-empire.svg
+│   │   └── 🖼️ wifi-security-analyzer.svg
+│   ├── 📕 Ravano-Akbar-Widodo-CV.pdf
+│   ├── 🖼️ file.svg
+│   ├── 🖼️ globe.svg
+│   ├── 🖼️ next.svg
+│   ├── 🖼️ vercel.svg
+│   └── 🖼️ window.svg
+├── 📁 src
+│   ├── 📁 app
+│   │   ├── 📁 api
+│   │   │   └── 📁 contact
+│   │   │       └── 📄 route.ts
+│   │   ├── 📄 favicon.ico
+│   │   ├── 🎨 globals.css
+│   │   ├── 📄 layout.tsx
+│   │   ├── 📄 loading.tsx
+│   │   └── 📄 page.tsx
+│   ├── 📁 components
+│   │   ├── 📁 layout
+│   │   │   ├── 📄 custom-cursor.tsx
+│   │   │   ├── 📄 initial-loader.tsx
+│   │   │   ├── 📄 scroll-progress.tsx
+│   │   │   ├── 📄 site-header.tsx
+│   │   │   └── 📄 theme-toggle.tsx
+│   │   ├── 📁 providers
+│   │   │   └── 📄 theme-provider.tsx
+│   │   └── 📁 ui
+│   │       ├── 📄 badge.tsx
+│   │       ├── 📄 button.tsx
+│   │       ├── 📄 card.tsx
+│   │       ├── 📄 dialog.tsx
+│   │       ├── 📄 input.tsx
+│   │       ├── 📄 label.tsx
+│   │       ├── 📄 progress.tsx
+│   │       ├── 📄 separator.tsx
+│   │       └── 📄 textarea.tsx
+│   ├── 📁 features
+│   │   └── 📁 portfolio
+│   │       ├── 📁 components
+│   │       │   └── 📄 section-heading.tsx
+│   │       ├── 📁 data
+│   │       │   └── 📄 portfolio-data.ts
+│   │       ├── 📁 hooks
+│   │       │   └── 📄 use-portfolio-animations.ts
+│   │       ├── 📁 sections
+│   │       │   ├── 📄 about-section.tsx
+│   │       │   ├── 📄 contact-section.tsx
+│   │       │   ├── 📄 hero-section.tsx
+│   │       │   ├── 📄 projects-section.tsx
+│   │       │   └── 📄 skills-section.tsx
+│   │       ├── 📄 portfolio-page.tsx
+│   │       └── 📄 types.ts
+│   ├── 📁 hooks
+│   └── 📁 lib
+│       ├── 📁 validators
+│       │   └── 📄 contact.ts
+│       ├── 📄 resend.ts
+│       └── 📄 utils.ts
+├── ⚙️ .gitignore
+├── 📝 AGENTS.md
+├── 📝 CLAUDE.md
+├── 📝 README.md
+├── ⚙️ components.json
+├── 📄 eslint.config.mjs
+├── 📄 next.config.ts
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+├── 📄 postcss.config.mjs
+└── ⚙️ tsconfig.json
 ```
 
 ## 🛠️ Content Customization

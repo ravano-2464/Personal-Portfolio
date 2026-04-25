@@ -1,27 +1,38 @@
-<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Lakoe App Project Preview</title>
+  <desc id="desc">Cover artwork for Lakoe App portfolio project.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#151929" />
-      <stop offset="1" stop-color="#2E8A84" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F2937" />
+      <stop offset="100%" stop-color="#16A34A" />
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#97F6EA" stop-opacity="0.22" />
-      <stop offset="1" stop-color="#B4CFFF" stop-opacity="0.1" />
-    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="1280" height="720" rx="28" fill="url(#bg)" />
-  <rect x="122" y="104" width="1036" height="512" rx="26" fill="#0F1727" fill-opacity="0.55" stroke="#A9F4E4" stroke-opacity="0.32" />
-  <rect x="178" y="168" width="360" height="390" rx="24" fill="#1E2F40" />
-  <rect x="578" y="168" width="520" height="86" rx="20" fill="#204C55" />
-  <rect x="578" y="286" width="248" height="272" rx="20" fill="#203B52" />
-  <rect x="850" y="286" width="248" height="272" rx="20" fill="#2C4E68" />
-  <rect x="210" y="210" width="296" height="64" rx="14" fill="url(#card)" />
-  <rect x="210" y="298" width="296" height="64" rx="14" fill="url(#card)" />
-  <rect x="210" y="386" width="296" height="64" rx="14" fill="url(#card)" />
-  <rect x="210" y="474" width="296" height="64" rx="14" fill="url(#card)" />
-  <circle cx="910" cy="413" r="82" fill="#7EFBE4" fill-opacity="0.2" />
-  <path d="M910 341V485" stroke="#A7FFF0" stroke-width="12" stroke-linecap="round" />
-  <path d="M838 413H982" stroke="#A7FFF0" stroke-width="12" stroke-linecap="round" />
-  <text x="178" y="84" fill="#DAFFF8" font-size="44" font-family="Geist, Arial, sans-serif" font-weight="700" letter-spacing="-1.5">Lakoe App</text>
-  <text x="180" y="128" fill="#B4E7E2" font-size="20" font-family="Geist, Arial, sans-serif" letter-spacing="0.4">E-commerce experience with clean catalog workflows</text>
+
+  <rect width="1280" height="720" fill="url(#bg)" />
+  <circle cx="1040" cy="120" r="240" fill="#A3E635" fill-opacity="0.24" filter="url(#softGlow)" />
+  <circle cx="1130" cy="580" r="190" fill="#4ADE80" fill-opacity="0.2" filter="url(#softGlow)" />
+  <path d="M0 600 C260 500 460 720 780 620 C960 560 1140 450 1280 510 L1280 720 L0 720 Z" fill="rgba(255,255,255,0.09)" />
+
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="rgba(8,15,36,0.34)" stroke="rgba(255,255,255,0.17)" />
+  <rect x="72" y="82" width="420" height="44" rx="22" fill="rgba(255,255,255,0.16)" />
+  <text x="98" y="111" fill="rgba(255,255,255,0.92)" font-size="20" font-family="Segoe UI, Arial, sans-serif" font-weight="600" letter-spacing="1.2">E-COMMERCE APPLICATION</text>
+
+  <text x='72' y='430' fill='rgba(255,255,255,0.95)' font-size='58' font-family='Segoe UI, Arial, sans-serif' font-weight='700' letter-spacing='0.4'>Lakoe App</text>
+
+  <text x="72" y="574" fill="rgba(255,255,255,0.78)" font-size="22" font-family="Consolas, 'Courier New', monospace" letter-spacing="1.2">/projects/lakoe-app.svg</text>
+
+  <g transform="translate(850 258)">
+    <rect x="0" y="0" width="320" height="210" rx="16" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" />
+    <path d="M28 56 H292" stroke="#4ADE80" stroke-width="8" stroke-linecap="round" />
+    <path d="M28 100 H242" stroke="rgba(255,255,255,0.45)" stroke-width="8" stroke-linecap="round" />
+    <path d="M28 144 H188" stroke="rgba(255,255,255,0.36)" stroke-width="8" stroke-linecap="round" />
+    <circle cx="270" cy="164" r="24" fill="#A3E635" fill-opacity="0.85" />
+  </g>
 </svg>
